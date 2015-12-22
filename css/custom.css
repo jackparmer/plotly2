@@ -365,6 +365,50 @@ img.pulse {
     50% { -webkit-filter: brightness(0.8); }
 }
 
-.u-max-full-width{
-  border-radius: 8px;
+/* Browser mockup code
+ * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
+ * Live example: https://updown.io
+ */
+
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 3px 3px 0 0
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.browser-mockup > * {
+  display: block;
+}
+
+img#large-contour{
+  width: 100%;
+  padding: 20px 0;
+  background: white;
+}
+
+#formula{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 5em;
+  margin: 0;
+  animation: type 4s steps(8, end);
+  animation-iteration-count: infinite;
+}
+
+@keyframes type{
+  from { width: 0; }
 }
