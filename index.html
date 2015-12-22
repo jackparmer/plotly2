@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Plotly 2.0</title>
+  <meta name="description" content="The next generation of the Plotly Web App is coming March 2016.">
+  <meta name="author" content="Plotly Industries">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/particleground.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <a class="typeform-share button" style="position:absolute;right:10px;top:10px;background:none;padding: 5px 10px;" href="https://plotly.typeform.com/to/seG7Vb" data-mode="1" target="_blank">REQUEST DEMO</a>
+  <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div id="particles"></div>
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h1 style="color: #33C3F0;">plotly 2.0</h1>
+          <h4 class="hero-heading">The next generation of Plotly. Prerelease for Pro users March 2016.</h4>
+          <a class="button button-primary" target="_blank" href="https://plot.ly/settings/subscription/?modal=true">Pre-subscribe now</a>
+          <br>
+          <a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="plotlygraphs">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        <div class="one-half column phones">
+          <div class="phone" id="iphone">
+            <div class="camera"></div>
+            <div class="speaker"></div>
+            <div class="screen"></div>
+            <div class="btn"></div>
+          </div>
+          <!-- <img class="phone" src="images/iphone.png"> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section values">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column value">
+          <h2 class="value-multiplier">SQL</h2>
+          <h5 class="value-heading">Connect to SQL</h5>
+          <p class="value-description">Plotly 2.0 connects and directly to your SQL databases.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">Excel</h2>
+          <h5 class="value-heading">In-Browser Formulas</h5>
+          <p class="value-description">Use all of your favorite Excel formulas directly in Plotly.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">100 MB</h2>
+          <h5 class="value-heading">100 MB data upload</h5>
+          <p class="value-description">Plotly 2.0 uploads & charts 50x more data than Plotly 1.0.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-third column value">
+          <h2 class="value-multiplier">UI</h2>
+          <h5 class="value-heading">A New User Interface</h5>
+          <p class="value-description">A slick new UI forged from 3 years of user feedback and testing.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">BI</h2>
+          <h5 class="value-heading">#1 for Dashboards</h5>
+          <p class="value-description">Plotly 2.0 is still the #1 platform to create & share dashboards online.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">APIs</h2>
+          <h5 class="value-heading">2.0 REST API</h5>
+          <p class="value-description">Plotly 2.0 sits on top of a <a href="https://api.plot.ly/v2/" target="_blank" style="color:#1EAEDB;">new API spec</a>, which is also accessible in R & Python.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper no-pad">
+    <span class="screenshot-main"></span>
+  </div>
+
+  <div class="section get-help">
+    <div class="container">
+      <h3 class="section-heading">Get Involved</h3>
+      <p class="section-description">Feedback, suggestions, and wild ideas are being discussed by the Plotly user community at <a href="http://community.plot.ly/c/plotly2-0" target="_blank">community.plot.ly</a></p>
+      <a class="button button-primary" href="http://community.plot.ly/c/plotly2-0" target="_blank">Join the discussion</a>
+    </div>
+  </div>
+
+  <div class="section categories">
+    <div class="container">
+      <h3 class="section-heading">Sneak peeks</h3>
+      <p class="section-description">Upgrade to Pro for early access and direct email to the Plotly team.</p>
+      <a class="button button-primary" target="_blank" href="https://plot.ly/settings/subscription/?modal=true">Get Plotly 2.0 early</a>
+      <br><br>
+      <div class="row breather">
+        <div class="one-half column value">
+          <h2 class="value-multiplier">SVG Shapes</h2>
+          <h5 class="value-heading">Drag-and-drop shapes on your plots.</h5>
+        </div>
+        <div class="one-half column category" style="position:relative;overflow:hidden;">
+          <div id="moving-rectangle"></div>
+          <img class="u-max-full-width" src="images/placeholder2.png">
+        </div>
+      </div>
+      <div class="row breather">
+        <div class="one-half column value">
+          <h2 class="value-multiplier">Filters</h2>
+          <h5 class="value-heading">Filter big datasets before graphing.</h5>
+        </div>
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/filter.gif">
+        </div>
+      </div>
+      <div class="row breather">
+        <div class="one-half column value">
+          <h2 class="value-multiplier">Excel Formulas</h2>
+          <h5 class="value-heading">Run your favorite Excel formulas.</h5>
+        </div>
+        <div class="one-half column category">
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>=SIN (A1)</td>
+                <td>0</td>
+                <td>=MIN(B1,C1)</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>0.91</td>
+                <td>=LOG(A2)</td>
+                <td>0.91</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>0.14</td>
+                <td>0.48</td>
+                <td>0.14</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column value">
+        <h2 class="value-multiplier">Network Graphs</h2>
+        <h5 class="value-heading">Make network graphs without code.</h5>
+      </div>
+      <div class="one-half column category">
+        <img class="u-max-full-width pulse" src="images/placeholder.png">
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script>
+  particleground(document.getElementById('particles'));
+</script>
+
+</body>
+</html>
