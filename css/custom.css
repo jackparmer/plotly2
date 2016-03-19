@@ -305,7 +305,7 @@ body{
     height: 600px;
     width: 100%;
     max-width: 860px;
-    background-image: url('httsp://images.plot.ly/background-images/plotly2-fullscreen-trimmed.png');
+    background-image: url('https://images.plot.ly/background-images/plotly2-fullscreen-trimmed.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
