@@ -293,7 +293,7 @@ body{
 
 .wrapper {
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
@@ -305,12 +305,11 @@ body{
     height: 600px;
     width: 100%;
     max-width: 860px;
-    background-image: url('https://images.plot.ly/background-images/plotly2-fullscreen.png');
+    background-image: url('httsp://images.plot.ly/background-images/plotly2-fullscreen-trimmed.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 5px;
-    box-shadow: 0 14px 12px -10px rgba(0,8,26,0.32);
     position: absolute;
     left: 0;
     right: 0;
